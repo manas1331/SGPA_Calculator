@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main()
+
 //Take variables for each subject
 {
     char s;int grade1,grade2,grade3,grade4,grade5,grade6;
@@ -11,7 +12,7 @@ int main()
     printf("Enter the current Cycle(Enter P-physics and C-chemistry)");
     scanf("%s",&s);
 
-    //Calculate the SGPA based on the grades
+    //Calculate the SGPA based on the grades after checking if it is physics or chemistry cycle
     if(s=='p' || s=='P')
     {
         printf("Enter the grade in EEE(In the range[1,10]) :");
