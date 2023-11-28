@@ -1,3 +1,4 @@
+// Import the library stdio.h and
 #include<stdio.h>
 #include<stdlib.h>
 int main()
