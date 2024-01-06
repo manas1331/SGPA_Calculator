@@ -1,6 +1,7 @@
 // Import the Library's stdio.h and stdlib.h
 #include<stdio.h>
 #include<stdlib.h>
+// Define the
 int main()
 
 //Take variables for each subject
