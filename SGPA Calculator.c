@@ -4,9 +4,9 @@
 // Define the main function
 int main()
 
-//Take variables for each subject
+// Take variables for each subject
 {
-    char s;int grade1,grade2,grade3,grade4,grade5,grade6;
+   char s;int grade1,grade2,grade3,grade4,grade5,grade6;
    double SGPA=0.0,SGPA1=0.0;
    int sum,sum1;
 
@@ -15,8 +15,10 @@ int main()
     scanf("%s",&s);
 
     //Calculate the SGPA based on the grades after checking if it is physics or chemistry cycle
+    // Check if it is physics cycle
     if(s=='p' || s=='P')
     {
+        // Ask the user the grade in each subject
         printf("Enter the grade in EEE(In the range[1,10]) :");
         scanf("%d",&grade1);
          printf("Enter the grade in Physics(In the range[1,10]) :");
@@ -31,12 +33,16 @@ int main()
         scanf("%d",&grade6);
         sum=(grade1*4+grade2*5+grade3*3+grade4*5+grade5*4+grade6);
           SGPA=sum/22.0;
+        // Display SGPA calculated
          printf("SGPA obtained is :%.2f",SGPA);
 
     }
+    // Check if it is chemistry cycle
+    
     else if (s=='c' || s=='C')
     {
-         printf("Enter the grade in EC(In the range[1,10]) :");
+        // Ask the user the grade in each subject
+         printf("Enter the grade in Electronics and communication(In the range[1,10]) :");
         scanf("%d",&grade1);
          printf("Enter the grade in Chemistry(In the range[1,10]) :");
         scanf("%d",&grade2);
@@ -50,9 +56,11 @@ int main()
         scanf("%d",&grade6);
          sum1=(grade1*4+grade2*5+grade3*3+grade4*5+grade5*4+grade6);
          SGPA1=sum1/22.0;
+        // Display SGPA calculated
          printf("SGPA obtained is :%.2f",SGPA1);
     }
     else
+      //If it is any other cycle name mentioned default message is displayed 
       printf("No such cycle exists");
     
 }
