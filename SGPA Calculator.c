@@ -31,6 +31,7 @@ int main()
         scanf("%d",&grade5);
          printf("Enter the grade in EVS(In the range[1,10]) :");
         scanf("%d",&grade6);
+       // Calculate the SGPA based on the formula below
         sum=(grade1*4+grade2*5+grade3*3+grade4*5+grade5*4+grade6);
           SGPA=sum/22.0;
         // Display SGPA calculated
@@ -54,6 +55,7 @@ int main()
         scanf("%d",&grade5);
          printf("Enter the grade in Constituition(In the range[1,10]) :");
         scanf("%d",&grade6);
+        // Calculate the SGPA based on the formula below
          sum1=(grade1*4+grade2*5+grade3*3+grade4*5+grade5*4+grade6);
          SGPA1=sum1/22.0;
         // Display SGPA calculated
