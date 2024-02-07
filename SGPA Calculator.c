@@ -1,6 +1,8 @@
+
 // Import the Library's stdio.h and stdlib.h
 #include<stdio.h>
 #include<stdlib.h>
+
 // Define the main function
 int main()
 
@@ -38,7 +40,7 @@ int main()
          printf("SGPA obtained is :%.2f",SGPA);
 
     }
-    // Check if it is chemistry cycle
+    // Check if it is chemistry cycle 
     
     else if (s=='c' || s=='C')
     {
